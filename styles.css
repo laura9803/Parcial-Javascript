@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    background: #f2f2f2;
+}
+body{
+    display: flex;
+    
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.slider{
+    width: 100%; 
+    display: flex;
+    flex-shrink: 0;
+    margin-left: -100%;
+}
+
+.slider__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+ .slider__section {
+    width: 100%;    
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+
+
